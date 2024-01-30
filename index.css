@@ -3,6 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    background-color: rgb(149, 233, 205);
 }
 
 p {
@@ -11,7 +12,7 @@ p {
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
     box-sizing: border-box;
     padding: 126px 50px;
     margin: 0 auto;
@@ -33,6 +34,7 @@ p {
 
 .btn, .btn-reset {
     padding: 28px 0px;
+    width: 100%;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
