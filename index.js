@@ -1,7 +1,7 @@
 let counter = 0;
 let counterText = document.querySelector('.counter')
-let button = document.querySelector('button');
-let reset = document.querySelector('.btn-reset');
+const button = document.querySelector('.btn');
+const reset = document.querySelector('.btn-reset');
 
 button.addEventListener('click', function() {
     counter = counter + 1;
